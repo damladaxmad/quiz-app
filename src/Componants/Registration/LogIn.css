@@ -1,0 +1,54 @@
+.card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    width: 50%;
+    align-items:center;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 1rem;
+    padding: 5rem;
+  }
+  .lSwitch{
+    margin-bottom: 40px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    /* width: 150px; */
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    align-items:initial;
+    justify-content:space-around;
+    color: white;
+}
+  .login{
+    background-color: #00308F;
+    border-radius: 12px;
+    padding: 3px 12px;
+  }
+  .lSignup{
+    /* background-color: #002884; */
+    color: #00308F;
+    border-radius: 12px;
+    padding: 3px 12px;
+  }
+  /* input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  } */
+  .hot input{
+    font: inherit;
+    padding: 0.5rem;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }

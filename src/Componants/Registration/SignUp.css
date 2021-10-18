@@ -1,0 +1,45 @@
+.card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    width: 50%;
+    align-items:center;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 1rem;
+    padding: 5rem;
+  }
+  .sSwitch{
+    margin-bottom: 40px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    align-items:initial;
+    justify-content:space-around;
+    color: white;
+  }
+  .sLogin{
+    color: #00308F;
+    border-radius: 12px;
+    padding: 3px 12px;
+  }
+  .signup{
+    background-color: #00308F;
+    border-radius: 12px;
+    padding: 3px 12px;
+  }
+
+  .hot input{
+    font: inherit;
+    background-color: #FAFAFA;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }

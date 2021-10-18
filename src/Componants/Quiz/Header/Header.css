@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #00308F;
+  padding: 0 2rem;
+  gap: 30px;
+  /* position:sticky; */
+  z-index: 20;
+}
+
+.header h2{
+  color: white;
+}
+.logo{
+  background-color: #00308F;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 5px;
+ 
+}
+.logo p{
+  margin-top: 35px;
+}
+.QuizPortal{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
